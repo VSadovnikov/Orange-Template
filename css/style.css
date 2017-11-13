@@ -1,0 +1,502 @@
+body{
+	font-family: 'Cormorant', serif;
+	font-size: 14px;
+	color: #000;
+	min-width: 320px;
+	background-color: white;
+}
+	
+nav.navbar.navbar-default div.container-fluid div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav.navbar-right li a {
+		font-family: 'Cormorant', serif;
+		font-size: 16px;
+		color: rgb(33, 33, 33);
+	  }
+
+	  nav.navbar.navbar-default div.container-fluid div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav.navbar-right li a:hover{
+		border-bottom: 2px solid black;
+	  }
+	  
+
+nav.navbar.navbar-default div.container-fluid div.navbar-header a.navbar-brand {
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+
+nav.navbar.navbar-default {
+	background-color: #fff;
+	padding-top: 20px;
+	padding-right: 150px;
+	padding-left: 95px;
+	
+}
+
+nav.navbar.navbar-default div.container-fluid div.navbar-header a.navbar-brand {
+	font-weight: 900;
+	font-size: 48px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.main-container {
+	margin-top: 120px;
+	background: url("../img/left_border.png") no-repeat;
+}
+
+
+.fio {
+		font-size: 46px;
+		font-family: "Cormorant", sans-serif;
+		color: rgb(33, 33, 33);
+		margin-top: 150px;
+		margin-left: 50px;
+		text-transform: uppercase;
+  
+}
+
+.job-title {
+	font-size: 22px;
+	font-family: "Myriad Pro";
+	margin-left: 50px;
+	color: rgba(33, 33, 33, 0.902);
+  }
+
+  .left-side-btn {
+	  margin-left: 50px;
+  }
+
+  .btn {
+	text-transform: uppercase;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 0;
+  }
+
+  .btn-left {
+margin-right: 5px;
+  }
+
+  .btn:hover {
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+  } 
+
+  .about_title {
+	font-family: "Cormorant" sans-serif;
+	color: rgb(33, 33, 33);
+	text-align: center;
+	font-size: 36px;
+	text-decoration: underline;
+	display: block;
+	margin-bottom: 50px;
+  }
+
+  .about_text {
+	font-size: 16px;
+	font-family: "Cormorant" sans-serif;
+	color: rgb(33, 33, 33);
+	text-align: center;
+	display: block;
+	
+  }
+
+  .dwn_cv_btn {
+	  text-align: center;
+	  background-color: white;
+	  color: black;
+	  padding: 10px 30px;
+  }
+
+  .dwn_cv_section { 
+		margin-top: 15px;
+		margin-bottom: 50px;
+	}
+
+	.skils-col-2 {
+		margin-left: 80px;
+	}
+
+	.skils-col-1 {
+		margin-left: 80px;
+	}
+
+.col-xs-1.col-md-3.skils-col-1 div.progress {
+		height: 11px;
+		border-radius: 0;
+	}
+
+.col-xs-1.col-md-3.skils-col-2 div.progress {
+	 border-radius: 0;
+	 height: 11px;
+	}
+
+.col-xs-1.col-md-3.skils-col-1 div.progress div.progress-bar {
+		background-color: black;
+	}
+
+
+.col-xs-1.col-md-3.skils-col-2 div.progress div.progress-bar {
+	background-color: black;
+}
+	
+
+.skils-block {
+	margin-bottom: 50px;
+}
+
+.ww-block {
+	position: relative;
+	width: 80%;
+	margin-top: -150px;
+	background-color: white;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.service-title {
+	text-align: center;
+}
+
+.service-img {
+	width: 20px;
+	height: 20px;
+}
+
+.thumbnail {
+	border: none;
+}
+
+.ww-title { 
+	padding-top: 100px;
+}
+
+.rec-works-block {
+	margin-top: 100px; 
+}
+
+.load_more_btn {
+	margin-top: 40px;
+}
+
+.portfolio_img {
+	margin: 10px 5px;
+	align-items: center;
+}
+
+.portfolio-block {
+	padding-left: 130px;
+	width: 100%;
+}
+.prt_img4_hover {
+
+}
+
+.fun-facts {
+	background: url("../img/fan-facts-img.png");
+	margin-top: 30px;
+}
+
+.fun-facts-thumbnail {
+	background-color: none;
+	margin: 30px 30px;
+}
+
+.fun-facts-thumbnail-text {
+ color: white;
+ 	text-align: center;
+	font-size: 18px;
+	font-family: "Myriad Pro";
+	color: rgb(255, 255, 255);
+	line-height: 1.333;
+	text-align: center;
+	z-index: 59;
+	padding-top: 25px;
+	padding-bottom: 35px;
+  }
+
+.fun-facts-thumbnail-title {
+ text-align: center;
+	font-size: 80px;
+	font-family: "Cormorant";
+	color: rgb(255, 255, 255);
+	line-height: 0.32;
+	z-index: 60;
+	padding-bottom: 25px;
+  }
+
+  .contact-block {
+	  margin-top: 50px;
+  }
+
+  .textarea {
+	  border: none;
+  }
+
+  .form-control {
+	border: none;
+	border-bottom: 1px solid black;
+	border-radius: 0;
+	box-shadow: none;
+  }
+
+  
+
+  .footer-container {
+	  background-color: black;
+	  margin-top: 50px;
+  }
+  
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+	color: skyblue;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	padding: 10px;
+	font-size: 20px;
+	margin: 25px 5px 25px 25px;
+	color: white;
+    width: 35px;
+    text-decoration: none;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+/* Twitter */
+.fa-twitter {
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	margin: 5px 5px;
+    width: 35px;
+    text-decoration: none;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.fa-linkedin {
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	margin: 5px 5px;
+    width: 35px;
+    text-decoration: none;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.fa-google-plus {
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	margin: 5px 5px;
+    width: 35px;
+    text-decoration: none;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.copyright-text {
+	color: white;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 125px;
+}
+
+.up-icon {
+	margin-top: 30px;
+	margin-left: 380px;
+}
+
+.glyphicon-arrow-up {
+	color: black;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50px;
+}
+  
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	nav.navbar.navbar-default div.container-fluid div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav.navbar-right li a {
+		text-align: center;
+	}
+
+
+	nav.navbar.navbar-default {
+		background-color: #fff;
+		padding-right: 0px;
+		padding-left: 0px;
+		
+	}
+
+	.fio {
+		font-size: 24px;
+		font-family: "Cormorant", sans-serif;
+		color: rgb(33, 33, 33);
+		margin-top: 10px;
+		margin-left: 5px;
+		text-transform: uppercase;
+	}
+  
+
+
+.job-title {
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	margin-bottom: 10px;
+	margin-left: 50px;
+	color: rgba(33, 33, 33, 0.902);
+  }
+
+  .main-container {
+	  background-image: none;
+  }
+
+
+  .btn {
+	text-transform: uppercase;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 0;
+  }
+
+  .btn-left {
+	margin-bottom: 5px;
+	margin-left: 40px;
+  }
+
+  .btn-right {
+	margin-bottom: 5px;
+	margin-left: 15px;
+  }
+
+  .btn:hover {
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	} 
+	
+	.skils-col-2 {
+		float: right;
+	}
+
+	.skils-block {
+		padding-left: 100px;
+	}
+
+	.skils-col-2 {
+		width: 100%;
+		margin-left: 5px;
+	}
+
+	.skils-col-1 {
+		width: 100%;
+		margin-left: 5px;
+	}
+
+	.ww-block {
+		position: relative;
+		width: 80%;
+		margin-top: -50px;
+		background-color: white;
+	}
+
+	.portfolio-block {
+		padding: 0px;
+	}
+
+	.dwn_cv_btn {
+		padding: 10px;
+	}
+
+	.fun-facts-thumbnail {
+		background-color: none;
+		margin: 10px 10px;
+	}
+	
+	.fun-facts-thumbnail-text {
+	 color: white;
+		 text-align: center;
+		font-size: 14px;
+		font-family: "Myriad Pro";
+		color: rgb(255, 255, 255);
+		line-height: 1.333;
+		text-align: center;
+		z-index: 59;
+		padding-top: 25px;
+	  }
+	
+	.fun-facts-thumbnail-title {
+	 text-align: center;
+		font-size: 50px;
+		font-family: "Cormorant";
+		color: rgb(255, 255, 255);
+		line-height: 0.32;
+		z-index: 60;
+		padding-bottom: 15px;
+	  }
+
+	  .load_more_btn {
+		margin-top: 20px;
+	}
+
+	.copyright-text {
+		color: white;
+		font-size: 14px;
+		margin-left: 45px;
+	}
+
+	glyphicon-arrow-up {
+		color: black;
+		background-color: white;
+		padding: 10px;
+		border-radius: 50px;
+	}
+
+	.up-icon {
+		margin-top: 10px;
+		margin-left: 100px;
+	}
+	  
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+	
+	}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+@media only screen and (max-width : 767px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
